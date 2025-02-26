@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @Table(name="model")
 public class User {
 
-    //User
     @Id
     private int id;
     private String name;
